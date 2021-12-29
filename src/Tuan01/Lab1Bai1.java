@@ -9,7 +9,6 @@ public class Lab1Bai1
         Scanner scanner = new Scanner(System.in);
         String ho_va_ten;
         double diem_tb;
-
         System.out.println("Nhập họ và tên: ");
         ho_va_ten= scanner.nextLine();
         System.out.println("Nhap Vao Diem Trung Binh: "); 
