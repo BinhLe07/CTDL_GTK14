@@ -27,9 +27,8 @@ public class Menu {
             System.out.println("3.Xoa san pham");
             System.out.println("4.Tim san pham");
             System.out.println("5.Thong ke hang trong kho");
-            System.out.println("6.Thoat");
 
-            System.out.print("Lua chon 1->6: ");
+            System.out.print("Lua chon 1->5: ");
             int key = Nhap.nextInt();
             
             switch(key){
