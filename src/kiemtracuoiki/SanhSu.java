@@ -34,8 +34,10 @@ public class SanhSu {
 	}
 	
 	public void inTT() {
+		System.out.println("================================================================");
         System.out.println("Ten hang: " +name+ ", Loai: Sanh su,     Ngay nhap: "+ngayNhapKho);
 		System.out.println("ID: " +id+ ", Gia: "+gia);
+		System.out.println("================================================================");
 	}
 	
 	public String GetName() {

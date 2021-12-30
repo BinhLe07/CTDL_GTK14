@@ -1,6 +1,5 @@
 package kiemtracuoiki;
 
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
@@ -134,7 +133,7 @@ public class KhoHang {
 		System.out.println("Chon cach xoa");
 		System.out.println("1) Theo Id");
 		System.out.println("2) Theo ten");
-		System.out.println("Lua chon 1->2");
+		System.out.println("Lua chon 1->2: ");
 		
 		int cachxoa = scanner.nextInt();
 		
@@ -240,7 +239,7 @@ public class KhoHang {
 	
 	public void TimHang(Scanner scanner) {
 		System.out.println("Chon cach tim");
-		System.out.println("1) Theo Id");
+		System.out.println("1) Theo loai hang");
 		System.out.println("2) Theo khoang gia");
 		System.out.println("Lua chon 1 hoac 2");
 		
@@ -346,7 +345,7 @@ public class KhoHang {
 		tongGiaTri = tongGiaTriDienMay + tongGiaTriSanhSu + tongGiaTriThucPham;
 		
 		System.out.println("Tong so luong hang hoa trong kho: " + tongSLHang + " san pham");
-		System.out.println("Tong gia tri kho: " + tongGiaTri + "VND\n");
+		System.out.println("Tong gia tri kho: " + tongGiaTri + "\n");
 		
 		System.out.println("Hang dien may co: " + tongSLDienMay + " san pham");
 		System.out.println("Hang sanh su co: " + tongSLSanhSu + " san pham");

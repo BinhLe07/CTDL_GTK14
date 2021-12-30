@@ -36,8 +36,10 @@ public class DienMay {
 	}
 	
 	public void inTT() {
+		System.out.println("=================================================================");
         System.out.println("Ten hang: " +name+ ", Loai: Dien may,     Ngay nhap: "+ngayNhapKho);
 		System.out.println("ID: " +id+ ", Gia: "+gia);
+		System.out.println("=================================================================");
 	}
 	
 	public String GetName() {
